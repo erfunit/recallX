@@ -1,7 +1,11 @@
+import Button from './components/common/button/button';
+
 const App = () => {
 	return (
-		<div className='font-quicksand text-3xl font-bold text-primary'>
-			RecallX
+		<div className=''>
+			<Button shape='round' size='wide'>
+				+
+			</Button>
 		</div>
 	);
 };
