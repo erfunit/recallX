@@ -1,8 +1,7 @@
-import { HTMLAttributes } from 'react';
+import { ButtonHTMLAttributes } from 'react';
+import { Colors } from '../../../types/colors.type';
 
-type Colors = 'primary' | 'secondary' | 'darkContent' | 'lightContent';
-
-export type ButtonProps = HTMLAttributes<HTMLButtonElement> & {
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 	variant?: 'filled' | 'ghost' | 'bordered';
 	shape?: 'default' | 'round' | 'square';
 	size?: 'default' | 'wide' | 'full';
