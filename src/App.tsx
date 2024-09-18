@@ -1,5 +1,9 @@
 const App = () => {
-  return <div>App</div>;
+	return (
+		<div className='font-quicksand text-3xl font-bold text-primary'>
+			RecallX
+		</div>
+	);
 };
 
 export default App;
