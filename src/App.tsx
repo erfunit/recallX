@@ -6,11 +6,6 @@ const App = () => {
 		<div className='p-5'>
 			<form className='max-w-lg mx-auto flex flex-col gap-5 p-4 rounded-xl items-start border'>
 				<Input size='large' placeholder='enter your name...' type='email' />
-				<Input
-					size='large'
-					placeholder='enter your password...'
-					type='password'
-				/>
 				<Button size='full'>Submit</Button>
 			</form>
 		</div>
