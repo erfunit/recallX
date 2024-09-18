@@ -25,7 +25,7 @@ const activeBgColorClasses = {
 	darkContent: 'active:bg-darkContent/20',
 };
 
-const Button = ({
+export const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({
 	children,
 	size = 'default',
 	shape = 'default',
@@ -33,7 +33,7 @@ const Button = ({
 	bgColor = 'primary',
 	textColor = 'lightContent',
 	...rest
-}: React.PropsWithChildren<ButtonProps>) => {
+}) => {
 	const classes = clsx(
 		// Size classes
 		{
@@ -77,5 +77,3 @@ const Button = ({
 		</button>
 	);
 };
-
-export default Button;
